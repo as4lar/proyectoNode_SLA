@@ -1,0 +1,47 @@
+<div
+  class="d-flex justify-content-center align-items-center"
+  style="min-height: 100vh;"
+>
+  <div class="col-md-4 mx-auto">
+    <div class="card mt-4 text-center">
+      <div class="card-header">
+        <H1>Account Login</H1>
+      </div>
+      <img
+        src="https://cdn.logo.com/hotlink-ok/logo-social.png"
+        class="rounded-circle mx-auto d-block m-4 logo"
+      />
+      <div class="card-body">
+        <form action="/users/signin" method="POST">
+
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              name="email"
+              placeholder="Email"
+              autofocus
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control"
+              name="password"
+              placeholder="Password"
+              autofocus
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <button
+              type="submit"
+              class="btn btn-primary btn-block"
+            >Signin</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
